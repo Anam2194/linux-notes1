@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: dmz-web
+  namespace: apple1
+spec:
+  containers:
+  - name: httpd-apple
+    image: httpd:latest
+    ports:
+    - containerPort: 80
