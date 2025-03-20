@@ -1,0 +1,72 @@
+a process in time of execution exports its information with timestamp is called logs.
+Splunk is a loging tool that is used to analyze and maintain data on a real-time basis.
+This data can come from a variety of sources like websites,
+applications, sensors and other devices.
+Splunk Use Cases
+
+
+Log Management
+Collect and analyze logs from servers, applications, and network
+devices to identify and resolve issues
+• Application performance monitoring
+I
+Provides real-time visibility into application performance by
+indexing logs and metrics, enabling quick identification of performance
+issues
+Fraud detection
+Detect suspicious patterns in financial transactions, login
+attempts, or system accesses.
+How Splunk Work
+
+
+Data Collection: Splunk gathers data from various sources like
+two webservers, applications and network devices
+
+
+Data 'rdeing ASplunk organizes and stores this data efficiently
+in a compressed format for faster searching and retrieval
+
+Search and Analysis: Splunk allows users to search and
+analyze this data using a powerful query language called search
+processing language (SPL).
+Visualization and Reporting: Splunk can present data in
+reports and dashboards for easy comprehension. This allows users
+to see trends and patterns visually.
+Alerts and Actions: Splunk can be configured to set up alerts
+based on specific data patterns. This enables proactive identification
+and resolution of potential problems
+Splunk architecture
+There are three primary components
+1. Forwarders
+collect the data and forward
+it to primary servers or
+instances.
+2. Indexers
+where the data is stored
+3. Search heads
+Analyze, visualize and
+report the data.
+SPL
+SearchProcessing Language
+• SPL is highly versatile and specifically designed for searching,.
+filtering, and visualizing the machine-generated data ingested into
+Splunk.
+Commands
+• table     (create table)
+• rename     (rename field)
+• fields     (add or remove field)
+• Dedup      (show identical fields)
+• sort       (show in desc. Or asc._ order)
+• top       (having max. value)
+. rare       (having min. value)
+.stats      (check components)
+
+
+(create table)
+(rename field)
+(add or remove field)
+(show identical fields)
+(show in desc. Or asc._ order)
+(having max. value)
+(having min. value)
+(check components)
