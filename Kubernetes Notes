@@ -114,3 +114,9 @@ kubectl get namespace
 kubectl delete namespace orange
 kubectl delete namespace apple
 kubectl get namespace
+why pod is the smallest unit of Kubernetes?
+Kubernetes does not manage containers directly.
+It always manages containers within a pod.
+When you deploy or scale an application in Kubernetes, you're actually working with pods, not individual containers.Kubernetes does not manage containers directly.
+It always manages containers within a pod.
+When you deploy or scale an application in Kubernetes, you're actually working with pods, not individual containers.
